@@ -34,7 +34,7 @@ if (button) {
     div.setAttribute("style", "box-shadow: inset 0 0 0 2000px rgba(66, 103, 178, 0.7);");
 
     a.appendChild(div);
-    a.title = "my title text";
+    a.title = "Open messenger";
     a.href = "https://messenger.com";
     a.target = "_blank";
     button.parentNode.replaceChild(a, button);
